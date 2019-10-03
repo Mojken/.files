@@ -102,5 +102,5 @@ fi
 #disable the stupid-fuck-ass C-s
 stty -ixon
 
-# fetch .files from git repo
-git pull&
+# fetch .files from git repo, quietly
+git pull >/dev/null 2>&1 &
